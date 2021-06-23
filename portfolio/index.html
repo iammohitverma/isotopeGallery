@@ -15,11 +15,10 @@
     <link rel="stylesheet" href="./assets/font-family/Poppins/poppins-font.css">
     <!-- Bootstrap link -->
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
-
-    <!-- by aditya -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.21/css/lightgallery.min.css" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- by aditya -->
+    <!-- lightgallery link -->
+    <link rel="stylesheet" href="assets/lightgallery/lightgallery.min.css">
+    <!-- aos link -->
+    <link rel="stylesheet" href="assets/animation-on-scroll/aos.css">
     <!-- Stylesheet link -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -30,13 +29,19 @@
     <header>
         <div class="header-wrap">
             <div class="header-inner">
-                <div class="logo-wrap">
-                    <a href="#" class="logo">
+                <div class="logo-wrap" data-aos="fade-down" data-aos-duration="500" data-aos-delay="100">
+                    <a href="index.html" class="logo">
                         <img src="assets/img/logo-white.png" alt="Techmind">
                     </a>
                 </div>
-                <div class="header-right">
-                    <a href="https://techmind.co.in/" class="tm-btn">CONTACT</a>
+                <div class="header-right" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="200">
+                    <a href="https://techmind.co.in/contact-us/" target="_blank" class="ftr-btn primary-btn">
+                        Contact us
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -45,9 +50,9 @@
     <section class="main-banner">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="100">
                     <div class="banner-wrap" id="scene">
-                        <h1 class="banner-title" data-tilt>
+                        <h1 class="banner-title">
                             Design Driven Development Your Web Products.
                         </h1>
                         <!-- Shapes start -->
@@ -62,25 +67,20 @@
             <!-- Banner Three Boxes -->
             <div class="row">
                 <div class="col-md-4">
-                    <div class="banner-sec-box">
+                    <div class="banner-sec-box" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
                         <div class="icon-wrap">
-                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
-                                stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                 <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
                             </svg>
                         </div>
                         <h2 class="title">Awarded Design</h2>
-                        <p>There are many variations variations of passages of Lorem Ipsum available, but the majority
-                            have suffered.</p>
+                        <p>There are many variations variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="banner-sec-box">
+                    <div class="banner-sec-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                         <div class="icon-wrap">
-                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
-                                stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6">
                                 </path>
@@ -88,24 +88,20 @@
                             </svg>
                         </div>
                         <h2 class="title">Design & Creative</h2>
-                        <p>Passages there are many variations variations of of Lorem Ipsum available, but the majority
-                            have suffered.</p>
+                        <p>Passages there are many variations variations of of Lorem Ipsum available, but the majority have suffered.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="banner-sec-box">
+                    <div class="banner-sec-box" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100">
                         <div class="icon-wrap">
-                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
-                                stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                 <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
                                 <line x1="8" y1="2" x2="8" y2="18"></line>
                                 <line x1="16" y1="6" x2="16" y2="22"></line>
                             </svg>
                         </div>
                         <h2 class="title">App Development</h2>
-                        <p>Variations There are many variations of passages of Lorem Ipsum available, but the majority
-                            have suffered.</p>
+                        <p>Variations There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                     </div>
                 </div>
             </div>
@@ -116,8 +112,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="inner text-center">
-                    <h6 class="subtitle" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Some of our
-                        Recent Works</h6>
+                    <h6 class="subtitle" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Some of our Recent Works</h6>
                     <h3 class="title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">Our Works</h3>
                     <p class="cntnt" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
                         The best part of waking up is creative websites in your cup
@@ -127,226 +122,358 @@
 
             <div class="col-12">
                 <div class="inner">
-                    <div class="portfolio-filter">
+                    <div class="portfolio-filter" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100" data-aos-offset="200">
                         <button type="button" class="filter-button is-checked" data-filter="">ALL</button>
                         <button type="button" class="filter-button" data-filter=".banners">Banners</button>
                         <button type="button" class="filter-button" data-filter=".mockups">Mockups</button>
-                        <button type="button" class="filter-button" data-filter=".usdesigns">UI Design</button>
+                        <button type="button" class="filter-button" data-filter=".ui-designs">UI Design</button>
                         <button type="button" class="filter-button" data-filter=".mobileapps">Mobile Apps</button>
-                        <button type="button" class="filter-button" data-filter=".development">Development</button>
                     </div>
 
-                    <div class="portfolio-gallery" id="gallery">
-                        <a href="./assets/img/cytiva.jpg" class="portfolio-anchor mockups">
+                    <div class="portfolio-gallery" id="gallery" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="100" data-aos-offset="200">
+
+                        <!-- all banners -->
+                        <a href="./assets/img/banners/techmind/webdesigner-hiring.jpg" target="_blank" class="portfolio-anchor banners">
                             <div class="figure-box">
-                                <img class="img-responsive" src="./assets/img/cytiva.jpg">
+                                <img class="img-responsive" src="./assets/img/banners/techmind/webdesigner-hiring.jpg">
                                 <div class="figure-cntnt">
-                                    <h6>Design & Development</h6>
-                                    <h4>Cytiva</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <h4>Banner</h4>
+                                    <h4>Web Designer Hiring</h4>
                                 </div>
                             </div>
-
                         </a>
-
-                        <a href="./assets/img/bet-lays.jpg" class="portfolio-anchor mockups">
+                        <a href="./assets/img/banners/techmind/fatherday.jpg" target="_blank" class="portfolio-anchor banners">
                             <div class="figure-box">
-                                <img class="img-responsive" src="./assets/img/bet-lays.jpg">
+                                <img class="img-responsive" src="./assets/img/banners/techmind/fatherday.jpg">
                                 <div class="figure-cntnt">
-                                    <h6>Design & Development</h6>
-                                    <h4>Bet & Lays</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <h4>Banner</h4>
+                                    <h4>Happy Father's Day</h4>
                                 </div>
                             </div>
-
                         </a>
-
-                        <a href="./assets/img/carrie-junior.jpg" class="portfolio-anchor uidesigns">
+                        <a href="./assets/img/banners/techmind/environmentday.jpg" target="_blank" class="portfolio-anchor banners">
                             <div class="figure-box">
-                                <img class="img-responsive" src="./assets/img/carrie-junior.jpg">
+                                <img class="img-responsive" src="./assets/img/banners/techmind/environmentday.jpg">
                                 <div class="figure-cntnt">
-                                    <h6>Mockup</h6>
+                                    <h4>Banner</h4>
+                                    <h4>World Environment Day</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/banners/techmind/baisakhi.gif" target="_blank" class="portfolio-anchor banners">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/banners/techmind/baisakhi.gif">
+                                <div class="figure-cntnt">
+                                    <h4>Banner</h4>
+                                    <h4>Happy Baisakhi</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/banners/techmind/durga.jpg" target="_blank" class="portfolio-anchor banners">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/banners/techmind/durga.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Banner</h4>
+                                    <h4>Happy Durga Ashtami</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/banners/techmind/rakhi.gif" target="_blank" class="portfolio-anchor banners">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/banners/techmind/rakhi.gif">
+                                <div class="figure-cntnt">
+                                    <h4>Banner</h4>
+                                    <h4>Happy Raksha Bandhan</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/banners/techmind/techmind-services.jpg" target="_blank" class="portfolio-anchor banners">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/banners/techmind/techmind-services.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Banner</h4>
+                                    <h4>Techmind Services</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/banners/techmind/chocolate-day.jpg" target="_blank" class="portfolio-anchor banners">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/banners/techmind/chocolate-day.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Banner</h4>
+                                    <h4>Happy Chocolate Day</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/banners/rentold/rentold-labour.jpg" target="_blank" class="portfolio-anchor banners">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/banners/rentold/rentold-labour.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Banner</h4>
+                                    <h4>Happy Labour Day</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/banners/rentold/rentold-eid.jpg" target="_blank" class="portfolio-anchor banners">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/banners/rentold/rentold-eid.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Banner</h4>
+                                    <h4>Happy Eid-Ul-Fitr</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/banners/santosh/teej.jpg" target="_blank" class="portfolio-anchor banners">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/banners/santosh/teej.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Banner</h4>
+                                    <h4>Happy Hariyali Teej</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/banners/santosh/covid.jpg" target="_blank" class="portfolio-anchor banners">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/banners/santosh/covid.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Banner</h4>
+                                    <h4>Covid-19</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- All Mockups -->
+                        <a href="./assets/img/mockups/jt-youth.jpg" target="_blank" class="portfolio-anchor mockups" data-mockup="./assets/img/mockups/jt-youth.jpg">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/mockups-thumbs/jt-youth.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Mockup</h4>
+                                    <h4>JT Youth Jobs</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/mockups/jt-academy.jpg" target="_blank" class="portfolio-anchor mockups" data-mockup="./assets/img/mockups/jt-academy.jpg">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/mockups-thumbs/jt-academy.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Mockup</h4>
+                                    <h4>JT Lead Like A Girl</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/mockups/optiwise.jpg" target="_blank" class="portfolio-anchor mockups" data-mockup="./assets/img/mockups/optiwise.jpg">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/mockups-thumbs/optiwise.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Mockup</h4>
+                                    <h4>Optiwise</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/mockups/essentials.jpg" target="_blank" class="portfolio-anchor mockups" data-mockup="./assets/img/mockups/essentials.jpg">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/mockups-thumbs/essentials.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Mockup</h4>
+                                    <h4>Essentials</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/mockups/ptti.jpg" target="_blank" class="portfolio-anchor mockups" data-mockup="./assets/img/mockups/ptti.jpg">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/mockups-thumbs/ptti.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Mockup</h4>
+                                    <h4>PTTI</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/mockups/aiken.jpg" target="_blank" class="portfolio-anchor mockups" data-mockup="./assets/img/mockups/aiken.jpg">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/mockups-thumbs/aiken.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Mockup</h4>
+                                    <h4>Aiken</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/mockups/baby-carrie.jpg" target="_blank" class="portfolio-anchor mockups" data-mockup="./assets/img/mockups/baby-carrie.jpg">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/mockups/baby-carrie.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Mockup</h4>
+                                    <h4>Baby Carrie</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/mockups/bet-and-lays.jpg" target="_blank" class="portfolio-anchor mockups" data-mockup="./assets/img/mockups/bet-and-lays.jpg">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/mockups-thumbs/bet-and-lays.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Mockup</h4>
+                                    <h4>Bet &amp; lays</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/mockups/accession-tech.jpg" target="_blank" class="portfolio-anchor mockups" data-mockup="./assets/img/mockups/accession-tech.jpg">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/mockups-thumbs/accession-tech.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Mockup</h4>
+                                    <h4>Accession Technologies</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/mockups/departmental-store.jpg" target="_blank" class="portfolio-anchor mockups" data-mockup="./assets/img/mockups/departmental-store.jpg">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/mockups-thumbs/departmental-store.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Mockup</h4>
+                                    <h4>Departmental Store</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./assets/img/mockups/carrie-junior.jpg" target="_blank" class="portfolio-anchor mockups" data-mockup="./assets/img/mockups/carrie-junior.jpg">
+                            <div class="figure-box">
+                                <img class="img-responsive" src="./assets/img/mockups-thumbs/carrie-junior.jpg">
+                                <div class="figure-cntnt">
+                                    <h4>Mockup</h4>
                                     <h4>Carrie Junior</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                                 </div>
                             </div>
-
                         </a>
-
-                        <a href="./assets/img/optiwise.jpg" class="portfolio-anchor uidesigns">
+                        <a href="./assets/img/mockups/efficiency.jpg" target="_blank" class="portfolio-anchor mockups" data-mockup="./assets/img/mockups/efficiency.jpg">
                             <div class="figure-box">
-                                <img class="img-responsive" src="./assets/img/optiwise.jpg">
+                                <img class="img-responsive" src="./assets/img/mockups-thumbs/efficiency.jpg">
                                 <div class="figure-cntnt">
-                                    <h6>Mockup</h6>
-                                    <h4>Optiwise</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <h4>Mockup</h4>
+                                    <h4>Efficiency 365</h4>
                                 </div>
                             </div>
-
                         </a>
-
-                        <a href="./assets/img/banner-01.jpg" class="portfolio-anchor banners">
+                        <!-- Ui Designs -->
+                        <a href="./assets/img/ui-designs/tapir.jpg" target="_blank" class="portfolio-anchor ui-designs" data-mockup="./assets/img/ui-designs/tapir.jpg">
                             <div class="figure-box">
-                                <img class="img-responsive" src="./assets/img/banner-01.jpg">
+                                <img class="img-responsive" src="./assets/img/ui-thumbs/tapir.jpg">
                                 <div class="figure-cntnt">
-                                    <h6>Graphics</h6>
-                                    <h4>Banner</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <h4>Ui Design</h4>
+                                    <h4>Pledge to Save a Tapir</h4>
                                 </div>
                             </div>
-
                         </a>
-
-                        <a href="./assets/img/efficiency.jpg" class="portfolio-anchor uidesigns mobileapps">
+                        <a href="./assets/img/ui-designs/reroom.jpg" target="_blank" class="portfolio-anchor ui-designs" data-mockup="./assets/img/ui-designs/reroom.jpg">
                             <div class="figure-box">
-                                <img class="img-responsive" src="./assets/img/store.jpg">
+                                <img class="img-responsive" src="./assets/img/ui-thumbs/reroom.jpg">
                                 <div class="figure-cntnt">
-                                    <h6>Ecommerce</h6>
-                                    <h4>Store</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <h4>Ui Design</h4>
+                                    <h4>Reroom</h4>
                                 </div>
                             </div>
-
                         </a>
-
-                        <a href="./assets/img/form.jpg" class="portfolio-anchor usdesigns uidesigns development">
+                        <a href="./assets/img/ui-designs/fujitsudesign.jpg" target="_blank" class="portfolio-anchor ui-designs" data-mockup="./assets/img/ui-designs/fujitsudesign.jpg">
                             <div class="figure-box">
-                                <img class="img-responsive" src="./assets/img/form.jpg">
+                                <img class="img-responsive" src="./assets/img/ui-thumbs/fujitsudesign.jpg">
                                 <div class="figure-cntnt">
-                                    <h6>Design & Development</h6>
-                                    <h4>Form</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <h4>Ui Design</h4>
+                                    <h4>Fuijitsu</h4>
                                 </div>
                             </div>
-
                         </a>
-
-                        <a href="./assets/img/banner-02.jpg" class="portfolio-anchor banners">
+                        <a href="./assets/img/ui-designs/artroom.jpg" target="_blank" class="portfolio-anchor ui-designs" data-mockup="./assets/img/ui-designs/artroom.jpg">
                             <div class="figure-box">
-                                <img class="img-responsive" src="./assets/img/banner-02.jpg">
+                                <img class="img-responsive" src="./assets/img/ui-thumbs/artroom.jpg">
                                 <div class="figure-cntnt">
-                                    <h6>Graphics</h6>
-                                    <h4>Banner</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <h4>Ui Design</h4>
+                                    <h4>Artroom</h4>
                                 </div>
                             </div>
-
                         </a>
-
-                        <a href="./assets/img/banner-03.jpg" class="portfolio-anchor banners mobileapps">
+                        <!-- App Designs -->
+                        <a href="./assets/img/apps-designs/adidas.jpg" target="_blank" class="portfolio-anchor mobileapps" data-mockup="./assets/img/apps-designs/adidas.jpg">
                             <div class="figure-box">
-                                <img class="img-responsive" src="./assets/img/banner-03.jpg">
+                                <img class="img-responsive" src="./assets/img/apps-thumbs/adidas.jpg">
                                 <div class="figure-cntnt">
-                                    <h6>Graphics</h6>
-                                    <h4>Banner</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <h4>Ui Design</h4>
+                                    <h4>Adidas</h4>
                                 </div>
                             </div>
-
-                        </a>
-
-                        <a href="./assets/img/efficiency.jpg" class="portfolio-anchor uidesign">
-                            <div class="figure-box">
-                                <img class="img-responsive" src="./assets/img/efficiency.jpg">
-                                <div class="figure-cntnt">
-                                    <h6>Mockup</h6>
-                                    <h4>Efficiency</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                                </div>
-                            </div>
-
-                        </a>
-
-                        <a href="./assets/img/jt-youth.jpg" class="portfolio-anchor uidesign development">
-                            <div class="figure-box">
-                                <img class="img-responsive" src="./assets/img/jt-youth.jpg">
-                                <div class="figure-cntnt">
-                                    <h6>UI Design</h6>
-                                    <h4>Jt Youth Jobs</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                                </div>
-                            </div>
-
-                        </a>
-
-                        <a href="./assets/img/optiwise.jpg" class="portfolio-anchor mockups">
-                            <div class="figure-box">
-                                <img class="img-responsive" src="./assets/img/optiwise.jpg">
-                                <div class="figure-cntnt">
-                                    <h6>Design</h6>
-                                    <h4>Optiwise</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                                </div>
-                            </div>
-
                         </a>
                     </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 text-center primary-btn">
+                    <a href="our-work.html" target="_blank " class="ftr-btn primary-btn mt-5">
+                        View More
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container-fluid section-team py-100">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-5 d-flex align-items-center">
-                    <div class="inner text-start">
-                        <h6 class="subtitle" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Some of
-                            our Recent Works</h6>
-                        <h3 class="title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">We have Great
-                            <br />Creative Team
-                        </h3>
-                        <p class="cntnt" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+
+    <section class="container-fluid section-team py-100 ">
+        <div class="container ">
+            <div class="row d-flex justify-content-center ">
+                <div class="col-lg-5 d-flex align-items-center ">
+                    <div class="inner text-start ">
+                        <h6 class="subtitle " data-aos="fade-up " data-aos-duration="1000 " data-aos-delay="100 " data-aos-offset="1000 ">Some of our Recent Works</h6>
+                        <h3 class="title " data-aos="fade-up " data-aos-duration="1000 " data-aos-delay="200 " data-aos-offset="1000 ">We have Great <br />Creative Team</h3>
+                        <p class="cntnt " data-aos="fade-up " data-aos-duration="1000 " data-aos-delay="300 " data-aos-offset="1000 ">
                             The best part of waking up is creative websites in your cup
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <div class="inner text-center">
-                        <ul class="team-box">
+                <div class="col-lg-5 ">
+                    <div class="inner text-center ">
+                        <ul class="team-box ">
                             <li>
-                                <figure data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
-                                    <img src="./assets/img/team/aditya.jpg" class="w-100">
+                                <figure data-aos="flip-left " data-aos-duration="1000 " data-aos-delay="100 " data-aos-offset="1000 ">
+                                    <img src="./assets/img/team/aditya.jpg " class="w-100 ">
                                 </figure>
                             </li>
                             <li>
-                                <figure data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
-                                    <img src="./assets/img/team/shubham.jpg" class="w-100">
+                                <figure data-aos="flip-left " data-aos-duration="1000 " data-aos-delay="300 " data-aos-offset="1000 ">
+                                    <img src="./assets/img/team/shubham.jpg " class="w-100 ">
                                 </figure>
                             </li>
                             <li>
-                                <figure data-aos="flip-left" data-aos-duration="1000" data-aos-delay="500">
-                                    <img src="./assets/img/team/sahil.jpg" class="w-100">
+                                <figure data-aos="flip-left " data-aos-duration="1000 " data-aos-delay="500 " data-aos-offset="1000 ">
+                                    <img src="./assets/img/team/sahil.jpg " class="w-100 ">
                                 </figure>
                             </li>
                             <li>
-                                <figure data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
-                                    <img src="./assets/img/team/mohit.jpg" class="w-100">
+                                <figure data-aos="flip-left " data-aos-duration="1000 " data-aos-delay="200 " data-aos-offset="1000 ">
+                                    <img src="./assets/img/team/mohit.jpg " class="w-100 ">
                                 </figure>
                             </li>
                             <li>
-                                <figure data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
-                                    <img src="./assets/img/team/meenakshi.jpg" class="w-100">
+                                <figure data-aos="flip-left " data-aos-duration="1000 " data-aos-delay="400 " data-aos-offset="1000 ">
+                                    <img src="./assets/img/team/meenakshi.jpg " class="w-100 ">
                                 </figure>
                             </li>
                             <li>
-                                <figure data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
-                                    <img src="./assets/img/team/parul.jpg" class="w-100">
+                                <figure data-aos="flip-left " data-aos-duration="1000 " data-aos-delay="600 " data-aos-offset="1000 ">
+                                    <img src="./assets/img/team/parul.jpg " class="w-100 ">
                                 </figure>
                             </li>
                             <li>
-                                <figure data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
-                                    <img src="./assets/img/team/sunil.jpg" class="w-100">
+                                <figure data-aos="flip-left " data-aos-duration="1000 " data-aos-delay="300 " data-aos-offset="1000 ">
+                                    <img src="./assets/img/team/sunil.jpg " class="w-100 ">
                                 </figure>
                             </li>
                             <li>
-                                <figure data-aos="flip-left" data-aos-duration="1000" data-aos-delay="500">
-                                    <img src="./assets/img/team/rohit.png" class="w-100">
+                                <figure data-aos="flip-left " data-aos-duration="1000 " data-aos-delay="500 " data-aos-offset="1000 ">
+                                    <img src="./assets/img/team/rohit.png " class="w-100 ">
                                 </figure>
                             </li>
                             <li>
-                                <figure data-aos="flip-left" data-aos-duration="1000" data-aos-delay="700">
-                                    <img src="./assets/img/team/gaurav.png" class="w-100">
+                                <figure data-aos="flip-left " data-aos-duration="1000 " data-aos-delay="700 " data-aos-offset="1000 ">
+                                    <img src="./assets/img/team/gaurav.png " class="w-100 ">
                                 </figure>
                             </li>
                         </ul>
@@ -356,30 +483,112 @@
         </div>
     </section>
 
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+
+    <section class="container-fluid section-growth py-100 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-12 ">
+                    <div class="inner text-center ">
+                        <h6 class="subtitle " data-aos="fade-up " data-aos-duration="1000 " data-aos-delay="100 " data-aos-offset="1000 ">Experts Growth</h6>
+                        <h3 class="title " data-aos="fade-up " data-aos-duration="1000 " data-aos-delay="200 " data-aos-offset="1000 ">Our Company Growth</h3>
+                        <p class="cntnt " data-aos="fade-up " data-aos-duration="1000 " data-aos-delay="300 " data-aos-offset="1000 ">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row mt-5 ">
+                <div class="col-md-6 ">
+                    <div class="inner " data-aos="fade-right " data-aos-duration="1000 " data-aos-delay="100 " data-aos-offset="1000 ">
+                        <img src="./assets/img/growth%20(1).jpg " class="w-100 growth-img ">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center ps-md-5 ">
+                    <div class="inner growth-cntnt " data-aos="fade-left " data-aos-duration="1000 " data-aos-delay="100 " data-aos-offset="1000 ">
+                        <h4>The most friendly service you've likely ever had </h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row mt-5 d-flex flex-md-row-reverse ">
+                <div class="col-md-6 ">
+                    <div class="inner " data-aos="fade-left " data-aos-duration="1000 " data-aos-delay="100 " data-aos-offset="1000 ">
+                        <img src="./assets/img/growth%20(2).jpg " class="w-100 growth-img ">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center ">
+                    <div class="inner growth-cntnt " data-aos="fade-right " data-aos-duration="1000 " data-aos-delay="100 " data-aos-offset="1000 ">
+                        <h4>The most friendly service you've likely ever had </h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row mt-5 ">
+                <div class="col-md-6 ">
+                    <div class="inner " data-aos="fade-right " data-aos-duration="1000 " data-aos-delay="100 " data-aos-offset="1000 ">
+                        <img src="./assets/img/growth%20(3).jpg " class="w-100 growth-img ">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center ps-md-5 ">
+                    <div class="inner growth-cntnt " data-aos="fade-left " data-aos-duration="1000 " data-aos-delay="100 " data-aos-offset="1000 ">
+                        <h4>The most friendly service you've likely ever had </h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid section-footer ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-12 ">
+                    <div class="inner text-center ">
+                        <h6 class="footer-title " data-aos="fade-up " data-aos-duration="1000 " data-aos-delay="100 " data-aos-offset="1000 ">
+                            Let's work together on your next project
+                        </h6>
+
+                        <p class="text-center mb-0 " data-aos="fade-up " data-aos-duration="1000 " data-aos-delay="200 " data-aos-offset="1000 ">
+                            <a href="https://techmind.co.in/contact-us/ " target="_blank " class="ftr-btn ">
+                                Contact us
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jquery old version for lightgallery -->
+    <script src="./assets/jquery/jquery-2.2.4.min.js "></script>
     <!-- Bootstrap Bundle link -->
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- by aditya -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.21/js/lightgallery-all.min.js"></script>
-    <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
-    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- by aditya -->
-
-
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <!-- lightgallery js link -->
+    <script src="./assets/lightgallery/lightgallery-all.min.js "></script>
+    <!-- Isotope js link -->
+    <script src="./assets/isotope/isotope.pkgd.min.js "></script>
+    <script src="./assets/isotope/imagesloaded.pkgd.js "></script>
+    <!-- AOS js link -->
+    <script src="./assets/animation-on-scroll/aos.js "></script>
     <!-- Parallax link -->
-    <script src="assets/js/parallax-min.js"></script>
-
-
-
-
+    <script src="./assets/js/parallax-min.js "></script>
     <!-- Vanilla Tilt link -->
-    <script src="https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js"></script>
-
-
+    <script src="./assets/vanilla-tilt/tilt.jquery.min.js "></script>
+    <script src="./assets/vanilla-tilt/vanilla-tilt.min.js "></script>
     <!-- Custom Script link -->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js "></script>
 
 
 </body>

@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techmind Portfolio | Mockup</title>
+    <!-- Favicon link -->
+    <link rel="icon" href="./assets/img/favicon.png" type="image/png">
+    <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body class="single-body">
+
+    <div class="container">
+        <img src="" id="portfolioImg" alt="Techmind Portfolio">
+    </div>
+
+
+    <script>
+        var imgGet = localStorage.getItem("imgPath");
+        var portfolioImg = document.getElementById("portfolioImg");
+        portfolioImg.setAttribute("src", imgGet);
+    </script>
+
+</body>
+
+</html>
